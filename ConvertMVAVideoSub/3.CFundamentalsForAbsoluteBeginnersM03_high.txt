@@ -1,0 +1,179 @@
+﻿<p begin="5.18s" id="p0" end="10.24s">大家好，我是来自 www.LearnVisualStudio.net 的 Bob Tabor，</p>
+<p begin="10.29s" id="p1" end="12.87s">我主要负责教授初学者所需的技能，</p>
+<p begin="12.92s" id="p2" end="16.44s">帮助他们尽快在全球一流的公司谋得第一份软件开发工作，</p>
+<p begin="16.49s" id="p3" end="19.98s">并构建 Windows 和 Web 应用。</p>
+<p begin="20.03s" id="p4" end="22.76s">这节课将介绍如何构建最简单的 C# 应用程序，</p>
+<p begin="22.81s" id="p5" end="27.82s">即 Hello World 应用程序。</p>
+<p begin="27.87s" id="p6" end="32.76s">它将在 Windows 控制台窗口中显示 Hello World 消息。</p>
+<p begin="32.81s" id="p7" end="35.57s">在这节课中我不会解释太多内容。</p>
+<p begin="35.62s" id="p8" end="38.82s">您将了解工作流程。换言之，如何创建一个新项目，</p>
+<p begin="38.87s" id="p9" end="43.41s">在何处键入代码，如何测试应用程序是否有效，等等。</p>
+<p begin="43.46s" id="p10" end="46.72s">目前只需跟着我操作即可，</p>
+<p begin="46.77s" id="p11" end="50.05s">即使有的地方不明白也无需担心。</p>
+<p begin="50.36s" id="p12" end="52.72s">在接下来的几节课中，我们将剖析这个例子，</p>
+<p begin="52.77s" id="p13" end="55.35s">解释我们编写的每一行代码，</p>
+<p begin="55.4s" id="p14" end="59.35s">以及这样编写的原因。</p>
+<p begin="59.4s" id="p15" end="64.08s">我将假设您已安装最新版本的 Visual Studio Express，</p>
+<p begin="64.13s" id="p16" end="68.73s">或者更高版本，</p>
+<p begin="68.78s" id="p17" end="71.81s">您也许会问，接下来要怎么办？</p>
+<p begin="71.86s" id="p18" end="75.09s">如果您没错过上节课的话，</p>
+<p begin="75.14s" id="p19" end="77.49s">上节课我们打开了这个页面。</p>
+<p begin="77.54s" id="p20" end="82.11s">下面我要关闭该窗口，向您展示如何返回到 Visual Studio。</p>
+<p begin="82.16s" id="p21" end="87.73s">在 Windows 8.1 中我要按名称查看我的所有应用，</p>
+<p begin="87.78s" id="p22" end="92.9s">在应用列表中找到 Visual Studio Express 2013 for Desktop。</p>
+<p begin="92.95s" id="p23" end="95.7s">右键单击它，</p>
+<p begin="95.75s" id="p24" end="100.86s">这会调出一个小任务栏，然后我选择 Pin to taskbar。</p>
+<p begin="101.71s" id="p25" end="104.6s">从现在起，每当我返回到桌面，</p>
+<p begin="105.91s" id="p26" end="109.76s">都可以在任务栏中看到 Visual Studio 图标，</p>
+<p begin="109.81s" id="p27" end="114.32s">您可以在本课程结束后删除该图标。</p>
+<p begin="114.37s" id="p28" end="117.96s">但这确实是返回 Visual Studio 的一种快捷方式。</p>
+<p begin="118.01s" id="p29" end="121.27s">下面单击 Visual Studio 图标，</p>
+<p begin="121.91s" id="p30" end="126.31s">启动 Visual Studio，在 Visual Studio 的 File 菜单中，</p>
+<p begin="126.36s" id="p31" end="130.99s">选择 New Project。在 New Project 对话框中，</p>
+<p begin="131.04s" id="p32" end="134.6s">选择一个项目模板。</p>
+<p begin="134.65s" id="p33" end="138.58s">首先，确保您选择 Visual C# 模板。</p>
+<p begin="138.63s" id="p34" end="142.61s">有很多次，</p>
+<p begin="142.66s" id="p35" end="146.76s">我无意中选择了 Visual Basic。</p>
+<p begin="146.81s" id="p36" end="151.92s">然后在中央窗格中选择 Console Application，</p>
+<p begin="151.97s" id="p37" end="155.73s">我要删除默认的名称，</p>
+<p begin="155.78s" id="p38" end="159.04s">键入 Hello，大写 W，</p>
+<p begin="159.09s" id="p39" end="163.94s">不加空格，HelloWorld 中的 H 和 W 都大写，</p>
+<p begin="163.99s" id="p40" end="167.12s">然后单击右下角的 OK 按钮。</p>
+<p begin="167.74s" id="p41" end="170.6s">稍后您会看到 Visual Studio</p>
+<p begin="170.65s" id="p42" end="173.99s">将基于您选择的项目模板，即 Windows 控制台应用程序，</p>
+<p begin="174.04s" id="p43" end="177.12s">创建一个新项目。</p>
+<p begin="177.17s" id="p44" end="179.42s">在本课程的后面，您将了解到</p>
+<p begin="179.47s" id="p45" end="182.34s">项目模板是什么，以及它能为您提供什么。</p>
+<p begin="182.39s" id="p46" end="186.75s">现在我们继续完成本节课的任务。</p>
+<p begin="186.8s" id="p47" end="196.4s">对话框消失，我们载入集成开发环境 (IDE) 的主窗格。</p>
+<p begin="196.4s" id="p48" end="202.74s">我想找到 static void Main 下面的开闭花括号。</p>
+<p begin="202.79s" id="p49" end="206.72s">我想键入以下代码，</p>
+<p begin="206.77s" id="p50" end="210.27s">将鼠标光标放在开闭花括号中间，</p>
+<p begin="210.32s" id="p51" end="212.81s">单击键盘上的 Enter 键。</p>
+<p begin="212.86s" id="p52" end="214.76s">单击 Enter 多次，留出一些空间供我键入代码。</p>
+<p begin="214.81s" id="p53" end="218.13s">然后我开始键入 Console，</p>
+<p begin="218.58s" id="p54" end="221.22s">可以看到执行此操作时，</p>
+<p begin="221.65s" id="p55" end="226.92s">在键入之处下方有一个弹出菜单弹出。</p>
+<p begin="226.97s" id="p56" end="230.97s">先不要让它分散您的注意力。稍后它将成为您最好的帮手。</p>
+<p begin="231.02s" id="p57" end="234.56s">暂时忽略它。</p>
+<p begin="234.61s" id="p58" end="239.66s">在这两个花括号之间键入以下代码：console.WriteLine。</p>
+<p begin="243.22s" id="p59" end="247.53s">然后使用两个双引号。</p>
+<p begin="247.58s" id="p60" end="254.54s">我在这两个双引号之间键入 Hello World。</p>
+<p begin="255.39s" id="p61" end="261.23s">然后在这行代码末尾添加一个冒号。</p>
+<p begin="261.28s" id="p62" end="264.22s">Console.WriteLine 中 C 要大写，</p>
+<p begin="265.42s" id="p63" end="269.74s">W 和 L 要大写，Write 与 Line 之间无空格，</p>
+<p begin="269.79s" id="p64" end="275.29s">一个左括号，一个双引号，Hello 与 World 之间有一个空格，</p>
+<p begin="275.34s" id="p65" end="279.67s">然后是另一个双引号，一个右括号，</p>
+<p begin="280.31s" id="p66" end="283.21s">结尾是一个冒号。</p>
+<p begin="284.19s" id="p67" end="285.94s">下面为 ReadLine 写一行类似的代码。</p>
+<p begin="287.55s" id="p68" end="292.85s">同样 Console 中的 C 要大写，</p>
+<p begin="293.13s" id="p69" end="299.43s">.ReadLine，大写 R，大写 L，左括号，</p>
+<p begin="299.48s" id="p70" end="302.98s">右括号，中间无内容，结尾是一个冒号。</p>
+<p begin="304.26s" id="p71" end="307.15s">我希望您检查一下代码，</p>
+<p begin="307.2s" id="p72" end="310.38s">确保与我屏幕上的一样。大写很重要，</p>
+<p begin="310.43s" id="p73" end="315.77s">是否有空格也很重要，</p>
+<p begin="315.82s" id="p74" end="320.1s">双引号、左右括号、冒号等</p>
+<p begin="320.35s" id="p75" end="324.92s">特殊字符的使用也要与我这里一样。</p>
+<p begin="324.97s" id="p76" end="329.46s">如果您在键入的任何内容下看到红色波浪线，</p>
+<p begin="329.51s" id="p77" end="333.86s">这是 Visual Studio 在提示您</p>
+<p begin="333.91s" id="p78" end="337.24s">没有正确键入特定内容。</p>
+<p begin="337.29s" id="p79" end="340.49s">因此花点时间检查您的工作，然后再继续后面的操作。</p>
+<p begin="340.54s" id="p80" end="343.14s">接下来单击顶部工具栏中的 Save All 按钮，</p>
+<p begin="343.19s" id="p81" end="347.9s">然后运行应用程序。</p>
+<p begin="347.95s" id="p82" end="351.19s">为此单击工具栏中的这个 Start 按钮。</p>
+<p begin="351.24s" id="p83" end="356.37s">该按钮紧挨绿色三角形按钮。</p>
+<p begin="356.42s" id="p84" end="359.3s">如果一切无误的话，您应看到一个 Windows 命令</p>
+<p begin="360.13s" id="p85" end="365.07s">或控制台窗口打开，其中显示 Hello World 消息。</p>
+<p begin="365.12s" id="p86" end="368.97s">好极了。下面单击右上角的红叉，</p>
+<p begin="369.02s" id="p87" end="371.84s">您可以看到 Visual Studio 返回到先前的状态。</p>
+<p begin="371.89s" id="p88" end="375.11s">可能有其他一些窗口打开。</p>
+<p begin="375.16s" id="p89" end="379.43s">您可以暂时关闭这些窗口。</p>
+<p begin="379.48s" id="p90" end="382.68s">如果您看到 There were build errors 消息，那么可能因为</p>
+<p begin="382.73s" id="p91" end="385.26s">您未正确键入代码。下面我们来看几个场景，</p>
+<p begin="385.31s" id="p92" end="390.14s">了解人们首次编写软件时遇到的一些常见问题。</p>
+<p begin="391.14s" id="p93" end="395.0s">当您看到此对话框：发生生成错误。</p>
+<p begin="395.05s" id="p94" end="398.55s">要继续并运行上次的成功生成吗？</p>
+<p begin="399.1s" id="p95" end="402.78s">选择 No 按钮。</p>
+<p begin="402.83s" id="p96" end="405.84s">然后您会看到在 IDE、Visual Studio 底部</p>
+<p begin="405.89s" id="p97" end="409.96s">出现一个错误列表，</p>
+<p begin="410.01s" id="p98" end="413.58s">提示您问题出在哪里。最快的解决方法是，</p>
+<p begin="413.63s" id="p99" end="417.85s">仔细观察您键入的代码，</p>
+<p begin="417.9s" id="p100" end="422.23s">看看与我编写的代码有何不同之处。</p>
+<p begin="422.28s" id="p101" end="426.54s">一些可能的错误消息和补救措施如下。</p>
+<p begin="426.59s" id="p102" end="428.64s">首先您可以看到这条消息：</p>
+<p begin="429.32s" id="p103" end="434.2s">类、结构或接口成员声明中的标记“(”无效。</p>
+<p begin="434.92s" id="p104" end="439.3s">正如您将在后面学到的，花括号用于定义代码块。</p>
+<p begin="439.35s" id="p105" end="443.39s">不同的命令属于不同类型的代码块，</p>
+<p begin="443.44s" id="p106" end="446.03s">我们会在后面的一节课中讨论这些命令。</p>
+<p begin="446.08s" id="p107" end="449.57s">但现在如果您看到这条消息，也许是因为</p>
+<p begin="449.62s" id="p108" end="451.84s">您未将代码放到合适的位置。</p>
+<p begin="451.89s" id="p109" end="456.1s">务必将代码放在 static void Main 下方的开闭花括号中。</p>
+<p begin="456.15s" id="p110" end="459.87s">因此我将使用我的鼠标光标，</p>
+<p begin="459.92s" id="p111" end="463.58s">高亮显示这两行代码，按组合键 Ctrl+X，</p>
+<p begin="463.63s" id="p112" end="469.05s">将鼠标光标移到这里面，按组合键 Ctrl+V</p>
+<p begin="469.1s" id="p113" end="473.74s">将代码粘贴进来，这样应用程序应该就能恢复正常了。</p>
+<p begin="475.3s" id="p114" end="479.96s">如果您看到 build errors 对话框，</p>
+<p begin="480.01s" id="p115" end="486.18s">而且消息是第 13 和 14 行缺少冒号，</p>
+<p begin="486.23s" id="p116" end="490.16s">如要修复这个问题，您所需做的就是</p>
+<p begin="490.21s" id="p117" end="495.27s">在您编写的两行代码末尾加冒号，就像这样。</p>
+<p begin="495.32s" id="p118" end="500.0s">就像正确的英文句子必须以标点符号结尾一样，</p>
+<p begin="500.05s" id="p119" end="504.06s">C# 代码也必须以冒号结尾。您的代码中缺少冒号，</p>
+<p begin="504.11s" id="p120" end="507.7s">因此添加冒号后，您的应用程序应该就能运行了。</p>
+<p begin="507.75s" id="p121" end="514.3s">好了。如果您看到 build errors 对话框，</p>
+<p begin="514.35s" id="p122" end="519.35s">而且消息是缺少 )，</p>
+<p begin="519.4s" id="p123" end="523.85s">无效的表达式项“)”，缺少冒号或其他标点符号，</p>
+<p begin="523.9s" id="p124" end="526.57s">当然，这从错误消息中</p>
+<p begin="526.62s" id="p125" end="529.14s">解释起来有点复杂。</p>
+<p begin="529.85s" id="p126" end="534.13s">Hello World 必须用双引号括起来。</p>
+<p begin="534.18s" id="p127" end="538.66s">确保您的代码中对 Hello 和 World</p>
+<p begin="538.71s" id="p128" end="542.4s">这两个词用了双引号，正如您在我的屏幕上看到的。</p>
+<p begin="543.78s" id="p129" end="548.05s">原因在于，我们希望这两个词被逐字写到屏幕上。</p>
+<p begin="548.1s" id="p130" end="551.02s">因此我们使用双引号来表示，</p>
+<p begin="551.07s" id="p131" end="555.38s">这些词代表一个字符串文本。</p>
+<p begin="555.43s" id="p132" end="558.68s">我们会在后面几节课中讨论字符串和字符串文本。</p>
+<p begin="558.73s" id="p133" end="563.36s">目前只需对 Hello World 使用这些双引号应该就可以了。</p>
+<p begin="563.41s" id="p134" end="570.37s">很好。如果您看到 build errors 对话框，</p>
+<p begin="571.0s" id="p135" end="574.91s">而且错误消息是当前上下文中不存在名称 Console，</p>
+<p begin="575.55s" id="p136" end="580.08s">最可能的原因就是 console 中的 c 没有大写。</p>
+<p begin="580.13s" id="p137" end="583.61s">或者可能您拼错了这个词，但我猜想，</p>
+<p begin="583.66s" id="p138" end="587.22s">很多初学者没有意识到 C# 区分大小写，</p>
+<p begin="587.27s" id="p139" end="591.07s">因此 console 中 c 不采用小写。可以看到</p>
+<p begin="591.12s" id="p140" end="596.26s">蓝色波浪线给出提示，Console 中的 C 使用大写。</p>
+<p begin="596.31s" id="p141" end="599.92s">我多次讲过，C# 对大写很挑剔。</p>
+<p begin="599.97s" id="p142" end="602.52s">因此从现在起到本系列课程结束，您键入的代码一定要与我的完全一致。</p>
+<p begin="602.57s" id="p143" end="606.3s">对 C# 而言，Console 与 console</p>
+<p begin="606.35s" id="p144" end="609.71s">是两个不同的概念。</p>
+<p begin="609.76s" id="p145" end="614.12s">因此只要将 Console 中的 C 大写，</p>
+<p begin="614.17s" id="p146" end="615.64s">您的应用程序应该就没问题了。</p>
+<p begin="615.69s" id="p147" end="621.53s">很好。类似地，如果您看到 build errors 对话框，</p>
+<p begin="621.58s" id="p148" end="625.64s">并且消息是‘System.Console’不包含‘writeline’或‘readline’的定义，</p>
+<p begin="625.69s" id="p149" end="632.01s">原因是类似的。因为 WriteLine 中</p>
+<p begin="632.06s" id="p150" end="636.14s">的 W 和 L 必须大写。</p>
+<p begin="636.19s" id="p151" end="640.96s">ReadLine 中的 R 和 L 也必须大写。</p>
+<p begin="641.55s" id="p152" end="644.68s">准确性对 C# 而言很重要。</p>
+<p begin="644.73s" id="p153" end="647.0s">Visual Studio 文本编辑器中有一些快捷方式</p>
+<p begin="647.05s" id="p154" end="650.84s">会帮助您提高键入代码的速度和准确度，</p>
+<p begin="650.89s" id="p155" end="652.68s">稍后会介绍这些快捷方式，</p>
+<p begin="652.73s" id="p156" end="655.96s">它们将帮助您永远不会出错。</p>
+<p begin="656.01s" id="p157" end="659.96s">但如果您看到错误消息，指出 Console 应包含‘WriteLine’的定义，</p>
+<p begin="660.01s" id="p158" end="664.24s">如果没拼错的话，</p>
+<p begin="664.29s" id="p159" end="667.73s">确保大小写也正确。</p>
+<p begin="667.78s" id="p160" end="670.94s">如果您在键入代码时发现一些错误或问题，</p>
+<p begin="670.99s" id="p161" end="674.94s">注意一下错误列表，正如我们目前为止所做的，</p>
+<p begin="674.99s" id="p162" end="679.19s">让错误列表指导您修复错误。</p>
+<p begin="679.94s" id="p163" end="682.94s">坦白讲，通常都是一些小问题。</p>
+<p begin="682.99s" id="p164" end="687.33s">一旦您对 C# 语法有了更多了解，这些问题发生的次数会越来越少，</p>
+<p begin="687.38s" id="p165" end="691.5s">或者至少您能够利用代码下方出现的</p>
+<p begin="691.55s" id="p166" end="695.48s">蓝色和红色波浪线快速发现或识别这些问题。</p>
+<p begin="695.53s" id="p167" end="699.14s">我们将在后面的一节课中讲解它们的意义。</p>
+<p begin="700.12s" id="p168" end="703.18s">解决了这些问题后，您就能够顺利</p>
+<p begin="703.23s" id="p169" end="704.44s">构建应用程序了。</p>
+<p begin="705.19s" id="p170" end="710.61s">编写 C# 代码是一项准确性要求较高的工作。</p>
+<p begin="710.66s" id="p171" end="715.68s">幸运的是，IDE 将帮助您正确编写代码。</p>
+<p begin="715.73s" id="p172" end="719.14s">或者它至少会告诉您问题出在哪里。</p>
+<p begin="719.19s" id="p173" end="722.1s">下节课我们将集中探讨</p>
+<p begin="722.15s" id="p174" end="726.89s">我们编写的 C# 代码的语法。</p>
+<p begin="726.94s" id="p175" end="730.88s">如果准确性要求高，那么您需要明白我们键入的</p>
+<p begin="730.93s" id="p176" end="732.75s">所有这些词和符号的意义是什么。</p>
+<p begin="732.8s" id="p177" end="735.92s">一旦您掌握了这些基础知识，开发就变得很简单了。</p>
+<p begin="735.97s" id="p178" end="738.97s">下节课再见。谢谢大家。</p>

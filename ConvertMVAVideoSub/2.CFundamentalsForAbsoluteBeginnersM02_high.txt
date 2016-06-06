@@ -1,0 +1,105 @@
+﻿<p begin="4.6s" id="p0" end="8.52s">大家好，我是来自 www.LearnVisualStudio.net 的 Bob Tabor。</p>
+<p begin="8.57s" id="p1" end="12.22s">我主要负责教授初学者所需的技能，</p>
+<p begin="12.27s" id="p2" end="15.35s">帮助他们尽快在全球一流的公司谋得第一份软件开发工作，</p>
+<p begin="15.4s" id="p3" end="19.0s">并构建 Windows 和 Web 应用。</p>
+<p begin="19.05s" id="p4" end="22.27s">这节课将安装 Visual Studio 免费版本，</p>
+<p begin="22.32s" id="p5" end="24.43s">即 Visual Studio Express。</p>
+<p begin="25.45s" id="p6" end="29.1s">在接下来的课程中，您可使用该版本跟随我进行操作。</p>
+<p begin="29.15s" id="p7" end="32.99s">如果您已安装 Visual Studio 2013 或更高版本，</p>
+<p begin="33.04s" id="p8" end="37.9s">比如 Express、Professional、Premium 或 Ultimate。</p>
+<p begin="37.95s" id="p9" end="40.92s">可跳过这节课，继续学习下节课，</p>
+<p begin="40.97s" id="p10" end="45.14s">构建首个应用程序。另外如果您对安装软件很擅长，</p>
+<p begin="45.19s" id="p11" end="47.59s">那么我敢肯定，您或许可以自己</p>
+<p begin="47.64s" id="p12" end="51.88s">完成这一安装。正如我说的，</p>
+<p begin="51.93s" id="p13" end="56.71s">免费版本 Visual Studio Express 可从 Microsoft.com/express 下载。</p>
+<p begin="57.79s" id="p14" end="60.84s">该 URL 会将您导航到正确的页面。页面现在看起来是这样的，</p>
+<p begin="60.89s" id="p15" end="63.5s">不过偶尔会有变动。因此如果它看起来有点不同</p>
+<p begin="63.55s" id="p16" end="67.02s">也不要惊讶。在该页面上，</p>
+<p begin="67.07s" id="p17" end="71.47s">您很快就会意识到不止有一个免费 Express 版本，</p>
+<p begin="71.52s" id="p18" end="74.51s">而是有多个。您要基于平台或者</p>
+<p begin="74.56s" id="p19" end="78.88s">根据您想构建的应用程序类型选择一个。</p>
+<p begin="78.93s" id="p20" end="82.17s">例如，向下滚动该页面，</p>
+<p begin="82.22s" id="p21" end="86.16s">可以看到 Express 2013 for Web、Express 2013 for Windows、</p>
+<p begin="86.21s" id="p22" end="91.88s">Express 2013 for Windows Desktop、</p>
+<p begin="91.97s" id="p23" end="94.77s">还有 Express 2013 for Windows Phone。</p>
+<p begin="96.51s" id="p24" end="104.11s">重要的一点是，您需要 Express 2013 for Windows Desktop。</p>
+<p begin="104.16s" id="p25" end="108.75s">如果您未安装这个 Visual Studio 免费版本，</p>
+<p begin="108.8s" id="p26" end="111.86s">就无法跟随我完成本系列的练习。</p>
+<p begin="111.91s" id="p27" end="116.32s">如果您已经安装了 Professional、</p>
+<p begin="116.37s" id="p28" end="121.78s">Premium 或 Ultimate，那么所有这些 Visual Studio 版本</p>
+<p begin="121.83s" id="p29" end="126.57s">只需安装一次，所有应用程序类型即可用。</p>
+<p begin="126.62s" id="p30" end="130.96s">但免费版本 Visual Studio Express 并非如此。</p>
+<p begin="131.01s" id="p31" end="133.66s">还有其他区别。但总体来讲，</p>
+<p begin="133.71s" id="p32" end="136.38s">仅在学习 C# 和 .NET 的高级功能</p>
+<p begin="136.43s" id="p33" end="141.45s">或与一组开发人员共事时才需要</p>
+<p begin="141.5s" id="p34" end="145.71s">Professional 版本或更高版本。</p>
+<p begin="145.76s" id="p35" end="148.4s">新开发人员在试图完成本系列练习时犯的一个常见错误是，</p>
+<p begin="148.45s" id="p36" end="153.21s">他们错误地下载了 Express 2013 for Windows，</p>
+<p begin="153.47s" id="p37" end="159.2s">而非 Express 2013 for Windows Desktop。</p>
+<p begin="159.25s" id="p38" end="165.01s">在构建应用商店应用（比如 Windows 应用商店）时会使用 Windows 版本。</p>
+<p begin="165.78s" id="p39" end="169.05s">Channel 9 和 Microsoft Virtual Academy 上有一整套相关课程，</p>
+<p begin="169.1s" id="p40" end="172.2s">如果您感兴趣的话可以看一下。</p>
+<p begin="173.0s" id="p41" end="176.35s">返回到桌面。这节课我们要使用</p>
+<p begin="177.5s" id="p42" end="181.88s">Express 2013 for Windows Desktop</p>
+<p begin="181.93s" id="p43" end="186.98s">创建简单的控制台程序。</p>
+<p begin="187.81s" id="p44" end="191.65s">找到 Express 2013 for Windows Desktop 版本。</p>
+<p begin="191.7s" id="p45" end="193.09s">然后单击 Download 链接。</p>
+<p begin="194.58s" id="p46" end="199.63s">您会看到有一个面板更详细地描述了</p>
+<p begin="199.68s" id="p47" end="202.06s">Visual Studio Express 2013 for Windows Desktop。</p>
+<p begin="202.73s" id="p48" end="207.62s">这个面板中还有几个选项，</p>
+<p begin="207.67s" id="p49" end="210.89s">可选择 Download language 为 English 或其他语言。</p>
+<p begin="210.94s" id="p50" end="217.71s">可以选择安装 DVD 还是小安装程序。</p>
+<p begin="217.76s" id="p51" end="223.48s">这个 DVD5 ISO 映像只是一个包含所有功能的 DVD 映像，</p>
+<p begin="223.53s" id="p52" end="226.46s">甚至包含您可能不需要的功能。</p>
+<p begin="226.51s" id="p53" end="230.2s">因此该映像的下载时间长一些。</p>
+<p begin="230.48s" id="p54" end="233.93s">老实说，我推荐您选择第一个选项，</p>
+<p begin="233.98s" id="p55" end="235.64s">选择 Install now 链接。</p>
+<p begin="237.24s" id="p56" end="242.4s">这会将我带到另一个页面，该页面要求您登录。</p>
+<p begin="242.45s" id="p57" end="246.31s">如您所见，我已经登录了进来。</p>
+<p begin="246.36s" id="p58" end="250.06s">但如果我未登录，就会看到像这样的一个页面，</p>
+<p begin="250.11s" id="p59" end="252.17s">要求我登录。</p>
+<p begin="255.88s" id="p60" end="257.06s">我只需输入凭据登录即可。</p>
+<p begin="259.64s" id="p61" end="265.06s">然后我可以选择下载 Express 2013 for Windows Desktop</p>
+<p begin="265.11s" id="p62" end="270.3s">或 Ultimate。现在不推荐这个选项，</p>
+<p begin="270.35s" id="p63" end="274.41s">因为它限时使用。我们直接选择</p>
+<p begin="274.46s" id="p64" end="278.28s">Express 2013 for Windows Desktop。如果您使用 Windows Explorer，</p>
+<p begin="278.33s" id="p65" end="280.27s">那么系统会询问您是保存还是运行安装程序。</p>
+<p begin="280.32s" id="p66" end="283.89s">通常我会单击 Run 按钮。</p>
+<p begin="283.94s" id="p67" end="287.46s">但如果您认为以后需要再次安装它，</p>
+<p begin="287.51s" id="p68" end="288.44s">可单击 Save。</p>
+<p begin="288.95s" id="p69" end="291.9s">当安装程序开始运行时，您可以选择</p>
+<p begin="292.56s" id="p70" end="297.29s">将其安装到一个不同的文件夹或驱动器中。</p>
+<p begin="297.34s" id="p71" end="300.11s">我通常保留默认位置不变。</p>
+<p begin="300.16s" id="p72" end="302.79s">然而如果您的主硬盘空间不够，就要更改这个位置。</p>
+<p begin="302.84s" id="p73" end="304.02s">您还要阅读</p>
+<p begin="305.29s" id="p74" end="311.02s">并单击复选框同意许可条款和隐私策略。</p>
+<p begin="311.07s" id="p75" end="315.63s">同意许可条款之后，</p>
+<p begin="315.68s" id="p76" end="318.56s">单击对话框最底部的大 Install 按钮。</p>
+<p begin="319.57s" id="p77" end="322.68s">因为 Visual Studio 需要修改您的操作系统</p>
+<p begin="322.73s" id="p78" end="324.9s">和文件系统的一些设置，</p>
+<p begin="324.95s" id="p79" end="329.35s">所以会出现一个 User Account Control (UAC) 对话框请求许可。</p>
+<p begin="329.4s" id="p80" end="332.1s">我们单击 Yes 按钮。</p>
+<p begin="333.44s" id="p81" end="336.47s">接下来安装程序将开始创建一个系统还原点，</p>
+<p begin="336.52s" id="p82" end="339.41s">这是一个标准安装过程，</p>
+<p begin="339.46s" id="p83" end="342.36s">一旦出现问题，它允许您还原计算机设置。</p>
+<p begin="342.41s" id="p84" end="346.45s">然后它开始将 Visual Studio 的相关组件</p>
+<p begin="346.5s" id="p85" end="350.33s">下载到您的电脑上。</p>
+<p begin="350.38s" id="p86" end="354.1s">我的网速相当快，但安装起来仍然需要大约 10 分钟。</p>
+<p begin="354.15s" id="p87" end="356.67s">您可以在等待期间稍作休息，</p>
+<p begin="356.72s" id="p88" end="359.17s">几分钟后再回来。</p>
+<p begin="362.1s" id="p89" end="365.22s">所有组件都成功安装之后，</p>
+<p begin="365.27s" id="p90" end="369.12s">您将在安装程序中看到安装成功的消息。</p>
+<p begin="369.81s" id="p91" end="373.39s">我们单击窗口底部的这个 Launch 按钮</p>
+<p begin="373.44s" id="p92" end="375.35s">来启动 Visual Studio。</p>
+<p begin="377.56s" id="p93" end="380.65s">这里再次要求登录 Visual Studio。</p>
+<p begin="380.7s" id="p94" end="382.85s">这次系统还解释了登录的一些好处。</p>
+<p begin="382.9s" id="p95" end="387.51s">不过您可以单击 Sign in 按钮下面的小链接</p>
+<p begin="387.56s" id="p96" end="390.55s">跳过这一步。我是一个循规蹈矩的人，</p>
+<p begin="390.6s" id="p97" end="392.94s">所以我要单击 Sign in 按钮。</p>
+<p begin="393.8s" id="p98" end="396.15s">输入我的账户名。</p>
+<p begin="396.2s" id="p99" end="402.97s">如您所见，Visual Studio 将在线搜索，</p>
+<p begin="403.02s" id="p100" end="406.91s">根据我以前的首选项设置这个 Visual Studio。</p>
+<p begin="409.68s" id="p101" end="413.08s">过了一会儿，我看到 Start Page 选项卡被加载到</p>
+<p begin="413.13s" id="p102" end="416.6s">Visual Studio 的主区域，表明已经可以开始编码了。</p>
+<p begin="417.44s" id="p103" end="421.95s">接下来我们即可首次使用 C# 编写代码了。</p>
+<p begin="422.0s" id="p104" end="424.33s">下节课再见。谢谢大家。</p>
